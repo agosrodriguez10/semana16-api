@@ -1,0 +1,86 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f1f8;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #e9a9d5;
+    margin-bottom: 1rem;
+}
+
+/* Estilos del formulario */
+label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #e9a9d5;
+}
+
+input[type="number"] {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 2px solid #e9a9d5;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    width: 80%;
+    max-width: 300px;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border-color: #d07fa5;
+}
+
+button {
+    background-color: #f2b0d5;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d07fa5;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Estilos del contenedor de información de la canción */
+#songInfo {
+    background: linear-gradient(135deg, #f8cfe2, #d34cb6); /* Gradiente rosa */
+    padding: 1rem;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 350px;
+    margin-top: 2rem;
+    color: #ffffff; /* Color del texto para mejor contraste */
+}
+
+
+/* Estilos de los enlaces (si los hay) */
+a {
+    color: #e9a9d5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d07fa5;
+}
+
+
